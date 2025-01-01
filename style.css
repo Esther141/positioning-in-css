@@ -1,0 +1,37 @@
+#static{
+    background-color: lightcoral;
+    width: 3oopx;
+    border: 5px solid slategray;
+    right: 30px;
+    position: static;
+}
+#relative{
+    background-color: violet;
+    width: 200px;
+    border: 5px solid steelblue;
+    left: 50px;
+    position: relative;
+}
+#absolute{
+    background-color: goldenrod;
+    width: 80%;
+    border: 5px solid darkolivegreen;
+    left: 50%;
+    position: absolute;
+}
+#fixed{
+    background-color: darkolivegreen;
+    width: 100%;
+    border: 5px solid sandybrown;
+    left: 400px;
+    position: fixed;
+    top:0 ;
+}
+#sticky{
+    background-color: rebeccapurple;
+    width: 200px;
+    border: 5px solid steelblue;
+    left: 20px;
+    position: sticky;
+    top: 100px; ;
+}
